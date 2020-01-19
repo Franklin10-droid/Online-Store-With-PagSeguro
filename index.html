@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>SHOP</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsividade.css" rel="stylesheet">
+  
+</head>
+
+<body oncontextmenu='bloquearmouse()'>
+    <div class=" container-fluid ">
+
+        <div class="logo ">
+
+            <div class="logo2 " align="center ">
+                <h1> SHOP</h1>
+            </div>
+           
+
+        </div>
+
+        <div class="btn-group " align="center ">
+            <button type="button " class="btn btn-primary dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MENU</button>
+
+            <div class="dropdown-menu ">
+                <a class="dropdown-item " href="#footer ">HOME</a>
+                <a class="dropdown-item " href="#footer ">PRODUTOS</a>
+                <a class="dropdown-item " href="# ">PRODUTOS</a>
+                <a class="dropdown-item " href="# ">PRODUTOS</a>
+                <div class="dropdown-divider "></div>
+                <a class="dropdown-item " href="# ">PRODUTOS</a>
+            </div>
+        </div>
+        <div class="carrinhomobile" align="center">
+            <button class="btn btn-primary" data-toggle="modal" data-target="#modalcarrinho" id="carrinhobutton2"><img src="assets/icones/cart.svg" alt="" width="20" height="20"> Carrinho </button>
+        </div>
+
+
+
+
+        <ul class="nav " id="idnav ">
+            <li class="nav-item ">
+                <a class="nav-link active " href="# ">HOME</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    PRODUTOS
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item " href="# ">PRODUTOS</a>
+                    <a class="dropdown-item " href="# ">PRODUTOS</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    PRODUTOS
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item " href="# ">PRODUTOS</a>
+                    <a class="dropdown-item " href="# ">PRODUTOS</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Softwares
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item " href="# ">PRODUTOS</a>
+                    <a class="dropdown-item " href="# ">PRODUTOS</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    PRODUTOS
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item " href="# ">blablabla</a>
+                    <a class="dropdown-item " href="# ">blablabla</a>
+                </div>
+            </li>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#modalcarrinho" id="carrinhobutton"><img src="assets/icones/cart.svg" alt="" width="20" height="20"> Carrinho </button>
+        </ul>
+        <!--Carrinho de compras-->
+        <div class="modal fade bd-example-modal-xl" id="modalcarrinho" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header ">
+                        <h5 class="modal-title" id="exampleModalLabel2" style="visibility: hidden;"><img src="assets/icones/cart.svg" alt="" width="20" height="20">Carrinho de Compras</h5>
+                        <h5 class="modal-title" id="exampleModalLabel3" style="visibility: hidden;"><img src="assets/icones/cart.svg" alt="" width="20" height="20">Carrinho de Compras</h5>
+                        <h5 class="modal-title text-center" id="exampleModalLabel"><img src="assets/icones/cart.svg" alt="" width="20" height="20">Carrinho de Compras</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                    </div>
+                    <div class="modal-body" id="carrinho-visu">
+                        <iframe src="https://pagseguro.uol.com.br/v2/checkout/cart.html?action=view" class="pagExterna">
+        
+                            <p>Seu navegador não suporta essa aplicação</p>
+                    </iframe>
+
+
+
+                    </div>
+                    <div class="modal-footer ">
+                        <div align="center">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <a href="https://pagseguro.uol.com.br/v2/checkout/cart.html?action=view" target="blanck">
+                                <img src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/pagamentos/99x61-carrinho-assina.gif" alt="Ver carrinho no pagseguro" />
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="alert alert-primary" role="alert" id="avisoInstrucoes">
+                <p class="card-title text-center">Instruções, caso necessário!</p>
+                <div align="center"> <button class="btn btn-primary " id="instrucoes" data-toggle="modal" data-target="#Instrucoes">Instruções</button></div>
+
+                <button type="button" class="close" aria-label="Close" id="buttonclose" onclick="fecharAviso()">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+            </div>
+            <!-- Modal instruções -->
+            <div class="modal fade" id="Instrucoes" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">
+                                Instruções
+                            </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                        </div>
+                        <div class="modal-body">
+                            <ol>
+                                <li>
+                                    Quando apertar o botão para comprar o produto o produto será colocado diretamente no carrinho, e será aberto uma janela pagina mostrando o carrinho, caso queria voltar e so fechar a pagina onde esta o carrinho e continuar suas compras
+                                </li>
+                                <li>
+                                    Para fechar o aviso das instruções basta fechar esta pequena janelinha e fechar o aviso no canto direito do mesmo
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--produtos da loja-->
+            <div class=" col-sm ">
+                <div class="card " style="width: 18rem; " id="card1 ">
+                    <img src="assets/notebook.jpg " class="card-img-top " alt="... ">
+                    <div class="card-body ">
+                        <h5 class="card-title ">Produto </h5>
+                        <p class="card-text ">Descrição do produto</p>
+                        <a href="# " class="btn btn-primary " data-toggle="modal" data-target="#modalProduto1Home">Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal produto1 -->
+            <div class="modal fade bd-example-modal-xl" id="modalProduto1Home" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Título do produto</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar"> <span aria-hidden="true">&times;</span> </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="assets/notebook.jpg" alt="" width="100%">
+                            <p class="card-text ">Descrição do produto</p>
+                            <input type="number" width="2em" id="qtd1" value="1">
+                            <p class="card-text ">30,00 R$</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+
+                            <form target="pagseguro" method="post" action="https://pagseguro.uol.com.br/checkout/checkout.jhtml">
+                                <input type="hidden" name="email_cobranca" value="suporte@lojamodelo.com.br" />
+                                <input type="hidden" name="tipo" value="CBR" />
+                                <input type="hidden" name="moeda" value="BRL" />
+                                <input type="hidden" name="item_id" value="12345" />
+                                <input type="hidden" name="item_descr" value="Descrição do item a ser vendido" />
+                                <input type="hidden" name="item_quant" value="1" />
+                                <input type="hidden" name="item_valor" value="100" />
+                                <input type="hidden" name="frete" value="0" />
+                                <input type="hidden" name="peso" value="0" />
+                                <input type="image" name="submit" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/pagamentos/99x61-comprar-assina.gif" alt="Pague com PagSeguro - é rápido, grátis e seguro!" onclick="closePag()" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-sm ">
+                <div class="card " style="width: 18rem; " id="card1 ">
+                    <img src="assets/notebook.jpg  " class="card-img-top " alt="... ">
+                    <div class="card-body ">
+                        <h5 class="card-title ">Produto </h5>
+                        <p class="card-text ">Descrição do produto</p>
+                        <a href="# " class="btn btn-primary " data-toggle="modal" data-target="#modalProduto2Home">Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal produto2 -->
+            <div class="modal fade bd-example-modal-xl" id="modalProduto2Home" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Título do produto2</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar"> <span aria-hidden="true">&times;</span> </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="assets/notebook.jpg" alt="" width="100%">
+                            <p class="card-text ">Descrição do produto</p>
+                            <input type="number" width="2em" id="qtd2" value="1">
+                            <p class="card-text ">30,00 R$</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-primary">Comprar</button>
+                            <button type="button" class="btn btn-primary" id="produto2HOME">Adicionar ao carrinho </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-sm ">
+                <div class="card " style="width: 18rem; " id="card1 ">
+                    <img src="assets/notebook.jpg  " class="card-img-top " alt="... ">
+                    <div class="card-body ">
+                        <h5 class="card-title ">Produto </h5>
+                        <p class="card-text ">Descrição do produto</p>
+                        <a href="# " class="btn btn-primary " data-toggle="modal" data-target="#modalProduto3Home">Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal produto3 -->
+            <div class="modal fade bd-example-modal-xl" id="modalProduto3Home" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Título do produto3</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar"> <span aria-hidden="true">&times;</span> </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="assets/notebook.jpg" alt="" width="100%">
+                            <p class="card-text ">Descrição do produto</p>
+                            <input type="number" width="2em" id="qtd3" value="1">
+                            <p class="card-text ">30,00 R$</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-primary">Comprar</button>
+                            <button type="button" class="btn btn-primary" id="produto3HOME">Adicionar ao carrinho </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-sm ">
+                <div class="card " style="width: 18rem; " id="card1 ">
+                    <img src="assets/notebook.jpg  " class="card-img-top " alt="... ">
+                    <div class="card-body ">
+                        <h5 class="card-title ">Produto </h5>
+                        <p class="card-text ">Descrição do produto</p>
+                        <a href="# " class="btn btn-primary " data-toggle="modal" data-target="#modalProduto4Home">Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal produto4 -->
+            <div class="modal fade bd-example-modal-xl" id="modalProduto4Home" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Título do produto4</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar"> <span aria-hidden="true">&times;</span> </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="assets/notebook.jpg" alt="" width="100%">
+                            <p class="card-text ">Descrição do produto</p>
+                            <input type="number" width="2em" id="qtd4" value="1">
+                            <p class="card-text ">30,00 R$</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-primary">Comprar</button>
+                            <button type="button" class="btn btn-primary" id="produto4HOME">Adicionar ao carrinho </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-sm ">
+                <div class="card " style="width: 18rem; " id="card1 ">
+                    <img src="assets/notebook.jpg  " class="card-img-top " alt="... ">
+                    <div class="card-body ">
+                        <h5 class="card-title ">Produto </h5>
+                        <p class="card-text ">Descrição do produto</p>
+                        <a href="# " class="btn btn-primary " data-toggle="modal" data-target="#modalExemplo">Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-sm ">
+                <div class="card " style="width: 18rem; " id="card1 ">
+                    <img src="assets/notebook.jpg  " class="card-img-top " alt="... ">
+                    <div class="card-body ">
+                        <h5 class="card-title ">Produto </h5>
+                        <p class="card-text ">Descrição do produto</p>
+                        <a href="# " class="btn btn-primary " data-toggle="modal" data-target="#modalExemplo">Detalhes</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+        <footer class="page-footer font-small blue pt-4 " id="footer ">
+
+            <div class="container-fluid text-center text-md-left ">
+
+                <div class="row ">
+
+                    <div class="col-md-6 mt-md-0 mt-3 ">
+
+                        <h5 class="text-uppercase ">Sobre </h5>
+                        <p>Blal bla bla</p>
+
+                    </div>
+
+                    <hr class="clearfix w-100 d-md-none pb-3 ">
+
+                    <div class="col-md-3 mb-md-0 mb-3 ">
+
+
+                        <h5 class="text-uppercase ">Links</h5>
+
+                        <ul class="list-unstyled ">
+                            <li>
+                                <a href="#! ">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#! ">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#! ">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#! ">Link 4</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-md-3 mb-md-0 mb-3 ">
+
+
+                        <h5 class="text-uppercase ">Links</h5>
+
+                        <ul class="list-unstyled ">
+                            <li>
+                                <a href="#! ">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#! ">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#! ">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#! ">Link 4</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="footer-copyright text-center py-3 ">© 2020 Copyright:
+                <a href="https://www.facebook.com/jhonata.vinicius.6 "> Jhonata Vinicius</a>
+            </div>
+
+
+        </footer>
+
+
+    </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js " integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js " integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 " crossorigin="anonymous "></script>
+    <script src="js/seguranca.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
