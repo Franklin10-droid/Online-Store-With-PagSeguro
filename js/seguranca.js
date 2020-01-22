@@ -42,13 +42,13 @@ shortcut = {
             c.detachEvent ? c.detachEvent("on" + a, b) : c.removeEventListener ? c.removeEventListener(a, b, !1) : c["on" + a] = !1
         }
     }
-}, shortcut.add("esc", function() { top.location.href = "https://www.facebook.com/jhonata.vinicius.6" });
-shortcut.add("Ctrl+F", function() { top.location.href = "https://www.facebook.com/jhonata.vinicius.6" });
-shortcut.add("Ctrl+Shift+Del", function() { top.location.href = "https://www.facebook.com/jhonata.vinicius.6" });
-shortcut.add("Ctrl+W", function() { top.location.href = "https://www.facebook.com/jhonata.vinicius.6" });
-shortcut.add("Ctrl+U", function() { top.location.href = "https://www.facebook.com/jhonata.vinicius.6" });
+}, shortcut.add("esc", function() { top.location.href = "https://www.linkedin.com/in/jhonatavinicius2488/" });
+shortcut.add("Ctrl+F", function() { top.location.href = "https://www.linkedin.com/in/jhonatavinicius2488/" });
+shortcut.add("Ctrl+Shift+Del", function() { top.location.href = "https://www.linkedin.com/in/jhonatavinicius2488/" });
+shortcut.add("Ctrl+W", function() { top.location.href = "https://www.linkedin.com/in/jhonatavinicius2488/" });
+shortcut.add("Ctrl+U", function() { top.location.href = "https://www.linkedin.com/in/jhonatavinicius2488/" });
 
 function bloquearmouse() {
-    window.open("https://www.facebook.com/jhonata.vinicius.6");
+    window.open("hhttps://www.linkedin.com/in/jhonatavinicius2488/");
     return false;
 }
