@@ -11,10 +11,7 @@ function openWindow() {
     myWindow = window.open("https://pagseguro.uol.com.br/checkout/checkout.jhtml", "_blank");
 }
 
-function closePag() {
-    myWindow.close();
-    window.frames.closewindow();
-}
+
 
 function fecharAviso() {
     alertInstrucoes.style.display = "none";
