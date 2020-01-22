@@ -4,4 +4,4 @@ Português: Esse e um projeto de template simples e responsivo para lojas virtua
 
 English:This is a simple and responsive template project for online stores using Bootstrap, CSS and JavaScript, in which there is integration with the PagSeguro cart, and also the visualization of the PagSeguro cart on the website in real time.
 
-![alt text](https://github.com/jhony2488/Online-Store-With-PagSeguro/blob/master/video/SHOP%20-%20Google%20Chrome%202020-01-22%2012-50-11.mp4 "Video demonstrativo")
+![alt text](https://github.com/jhony2488/Online-Store-With-PagSeguro/blob/master/video/descktop.gif "Video demonstrativo")
