@@ -1,6 +1,4 @@
-/*
-Autor: Jhonata Vinicius
-*/
+
 shortcut = {
     all_shortcuts: {},
     add: function(a, b, c) {
